@@ -1,0 +1,1788 @@
+{
+    "result": {
+        "id": "63c998447dc8f0b1e287d853",
+        "state": "Loot",
+        "result": "InProgrss",
+        "mineTimestamp": 1674156099073,
+        "mineCyborgs": [
+            {
+                "id": 284,
+                "name": "Cyborg #284",
+                "status": "Idle",
+                "medal": [
+                    "Genesis"
+                ],
+                "cooldownPeriod": 0,
+                "trait": {
+                    "class": "Warrior",
+                    "bodyParts": {
+                        "gender": "Female",
+                        "helmet": "WarriorCorporal",
+                        "vest": "WarriorCorporal",
+                        "eye": {
+                            "name": "novalens",
+                            "class": "Aviator"
+                        },
+                        "neck": {
+                            "name": "SpaceFury",
+                            "class": "Aviator"
+                        },
+                        "originPlanet": {
+                            "name": "Zephyr",
+                            "class": "Aviator"
+                        }
+                    }
+                },
+                "rank": "Corporal",
+                "level": 1,
+                "health": 110,
+                "attack": 40,
+                "speed": 7.72,
+                "criticalHit": 12.65,
+                "accuracy": 73,
+                "luck": 8.02,
+                "persistance": 16.96,
+                "lifePoint": 100,
+                "streesPoint": 0,
+                "enegry": 24,
+                "xp": 0
+            },
+            {
+                "id": 604,
+                "name": "Cyborg #604",
+                "status": "Idle",
+                "medal": [
+                    "Genesis"
+                ],
+                "cooldownPeriod": 0,
+                "trait": {
+                    "class": "Tactician",
+                    "bodyParts": {
+                        "gender": "Male",
+                        "helmet": "TacticianCorporal",
+                        "vest": "TacticianCorporal",
+                        "eye": {
+                            "name": "Cryooptics",
+                            "class": "Aviator"
+                        },
+                        "neck": {
+                            "name": "StarDrifter",
+                            "class": "Aviator"
+                        },
+                        "originPlanet": {
+                            "name": "Arcturia",
+                            "class": "Aviator"
+                        }
+                    }
+                },
+                "rank": "Corporal",
+                "level": 1,
+                "health": 110,
+                "attack": 40,
+                "speed": 8.24,
+                "criticalHit": 11.05,
+                "accuracy": 73,
+                "luck": 8.98,
+                "persistance": 7.36,
+                "lifePoint": 100,
+                "streesPoint": 0,
+                "enegry": 24,
+                "xp": 0
+            },
+            {
+                "id": 86,
+                "name": "Cyborg #86",
+                "status": "Idle",
+                "medal": [
+                    "Genesis"
+                ],
+                "cooldownPeriod": 0,
+                "trait": {
+                    "class": "Brawler",
+                    "bodyParts": {
+                        "gender": "Male",
+                        "helmet": "BrawlerCorporal",
+                        "vest": "BrawlerCorporal",
+                        "eye": {
+                            "name": "Cyberoculars",
+                            "class": "Aviator"
+                        },
+                        "neck": {
+                            "name": "StarDrifter",
+                            "class": "Aviator"
+                        },
+                        "originPlanet": {
+                            "name": "Helios",
+                            "class": "Aviator"
+                        }
+                    }
+                },
+                "rank": "Corporal",
+                "level": 1,
+                "health": 110,
+                "attack": 40,
+                "speed": 7.84,
+                "criticalHit": 17.05,
+                "accuracy": 73,
+                "luck": 5.86,
+                "persistance": 10.24,
+                "lifePoint": 100,
+                "streesPoint": 0,
+                "enegry": 24,
+                "xp": 0
+            }
+        ],
+        "minePlayerId": "63c936a7d9c98e658792ace5",
+        "mineSimulation": {
+            "participant": [
+                86,
+                604,
+                284
+            ],
+            "position": [
+                [
+                    -1,
+                    86,
+                    604
+                ],
+                [
+                    284,
+                    -1,
+                    -1
+                ]
+            ],
+            "mine_start_time": 1674156099073,
+            "mine_duration": 60,
+            "reward": {
+                "rewardToken": {
+                    "SGF1": 400,
+                    "SGF2": 600
+                },
+                "LootBox": {}
+            }
+        },
+        "minePosition": [
+            [
+                -1,
+                86,
+                604
+            ],
+            [
+                284,
+                -1,
+                -1
+            ]
+        ],
+        "lootCyborgs": [
+            {
+                "id": 978,
+                "name": "Cyborg #978",
+                "status": "Idle",
+                "medal": [
+                    "Genesis"
+                ],
+                "cooldownPeriod": 0,
+                "trait": {
+                    "class": "Marine",
+                    "bodyParts": {
+                        "gender": "Male",
+                        "helmet": "MarineCorporal",
+                        "vest": "MarineCorporal",
+                        "eye": {
+                            "name": "Syntheticeyes",
+                            "class": "Aviator"
+                        },
+                        "neck": {
+                            "name": "NovaSurge",
+                            "class": "Aviator"
+                        },
+                        "originPlanet": {
+                            "name": "Xandar",
+                            "class": "Aviator"
+                        }
+                    }
+                },
+                "rank": "Corporal",
+                "level": 1,
+                "health": 1,
+                "attack": 5.5,
+                "speed": 3.89,
+                "criticalHit": 8.425,
+                "accuracy": 34.155,
+                "luck": 2.53,
+                "persistance": 7.88,
+                "lifePoint": 100,
+                "streesPoint": 30,
+                "enegry": 24,
+                "xp": 0
+            },
+            {
+                "id": 674,
+                "name": "Cyborg #674",
+                "status": "Idle",
+                "medal": [
+                    "Genesis"
+                ],
+                "cooldownPeriod": 0,
+                "trait": {
+                    "class": "Warrior",
+                    "bodyParts": {
+                        "gender": "Male",
+                        "helmet": "WarriorCorporal",
+                        "vest": "WarriorCorporal",
+                        "eye": {
+                            "name": "Cyberoculars",
+                            "class": "Aviator"
+                        },
+                        "neck": {
+                            "name": "ChaosReign",
+                            "class": "Brawler"
+                        },
+                        "originPlanet": {
+                            "name": "Helios",
+                            "class": "Aviator"
+                        }
+                    }
+                },
+                "rank": "Corporal",
+                "level": 1,
+                "health": 1,
+                "attack": 13.5,
+                "speed": 3.65,
+                "criticalHit": 7.925,
+                "accuracy": 34.82,
+                "luck": 1.89,
+                "persistance": 8.72,
+                "lifePoint": 100,
+                "streesPoint": 20,
+                "enegry": 24,
+                "xp": 0
+            },
+            {
+                "id": 1072,
+                "name": "Cyborg #1072",
+                "status": "Idle",
+                "medal": [
+                    "Genesis"
+                ],
+                "cooldownPeriod": 0,
+                "trait": {
+                    "class": "Warrior",
+                    "bodyParts": {
+                        "gender": "Female",
+                        "helmet": "WarriorCorporal",
+                        "vest": "WarriorCorporal",
+                        "eye": {
+                            "name": "Cyberoculars",
+                            "class": "Aviator"
+                        },
+                        "neck": {
+                            "name": "ChaosReign",
+                            "class": "Brawler"
+                        },
+                        "originPlanet": {
+                            "name": "Zephyr",
+                            "class": "Aviator"
+                        }
+                    }
+                },
+                "rank": "Corporal",
+                "level": 1,
+                "health": 1,
+                "attack": 8.5,
+                "speed": 3.55,
+                "criticalHit": 8.425,
+                "accuracy": 34.82,
+                "luck": 1.89,
+                "persistance": 8.72,
+                "lifePoint": 100,
+                "streesPoint": 25,
+                "enegry": 24,
+                "xp": 0
+            }
+        ],
+        "lootTimestamp": 4,
+        "lootPlayerId": "63c97a213c2222ee966eff0f",
+        "lootSimulation": {
+            "result": {
+                "win": {
+                    "team": "mine",
+                    "reward": {}
+                },
+                "loss": {
+                    "team": "loot",
+                    "reward": {}
+                }
+            },
+            "gamePosition": {
+                "loot": {
+                    "frontRow": [
+                        -1,
+                        1072,
+                        674
+                    ],
+                    "backRow": [
+                        978,
+                        -1,
+                        -1
+                    ]
+                },
+                "mine": {
+                    "frontRow": [
+                        -1,
+                        86,
+                        604
+                    ],
+                    "backRow": [
+                        284,
+                        -1,
+                        -1
+                    ]
+                }
+            },
+            "participant": {
+                "loot": [],
+                "mine": []
+            },
+            "corePlay": [
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 110,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 40,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 0,
+                        "health": 122,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 126,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 0,
+                        "health": 99,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 5,
+                        "health": 99,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 40,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 1072,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 0,
+                        "health": 120,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 0,
+                        "health": 122,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 27,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 83,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 284,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 110,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 1072,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 0,
+                        "health": 80,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 1072,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 0,
+                        "health": 80,
+                        "isFaint": false,
+                        "hit": 1,
+                        "attack": 17,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 65,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": 7.5
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 83,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 0,
+                        "health": 82,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 126,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 54,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 54,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 1072,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 0,
+                        "health": 40,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 0,
+                        "health": 82,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 27,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 56,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 284,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 110,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 1072,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 0,
+                        "health": 1,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {},
+                            {
+                                "flee": {},
+                                "selfStress": {
+                                    "id": 2,
+                                    "state": {
+                                        "healt": 1,
+                                        "attack": 8.5,
+                                        "accuracy": 34.82,
+                                        "criticalHit": 8.425,
+                                        "speed": 3.55,
+                                        "luck": 1.89,
+                                        "persistance": 8.72
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 1072,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 5,
+                        "health": 1,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 8.5,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 54,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 56,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 0,
+                        "health": 42,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 126,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 43,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 43,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 1072,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 5,
+                        "health": 1,
+                        "isFaint": true,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 15,
+                        "health": 42,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 27,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 56,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 284,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 110,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 15,
+                        "health": 2,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 10,
+                        "health": 126,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 32,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 56,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 10,
+                        "health": 2,
+                        "isFaint": false,
+                        "isDodge": true,
+                        "stressInc": -5
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 10,
+                        "health": 2,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 27,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 29,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 32,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 10,
+                        "health": 1,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {},
+                            {
+                                "flee": {},
+                                "selfStress": {
+                                    "id": 1,
+                                    "state": {
+                                        "healt": 1,
+                                        "attack": 13.5,
+                                        "accuracy": 34.82,
+                                        "criticalHit": 7.925,
+                                        "speed": 3.65,
+                                        "luck": 1.89,
+                                        "persistance": 8.72
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 10,
+                        "health": 126,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 21,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 284,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 110,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 674,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 10,
+                        "health": 1,
+                        "isFaint": true,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 126,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 11,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 21,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 5,
+                        "health": 29,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 86,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 86,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 10,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 10,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 46,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 46,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 0.5,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {},
+                            {
+                                "flee": {},
+                                "selfStress": {
+                                    "id": 1,
+                                    "state": {
+                                        "healt": 0.5,
+                                        "attack": 20,
+                                        "accuracy": 36.5,
+                                        "criticalHit": 8.525,
+                                        "speed": 3.92,
+                                        "luck": 2.93,
+                                        "persistance": 5.12
+                                    }
+                                }
+                            }
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 284,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 0,
+                        "health": 110,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 20,
+                        "health": 46,
+                        "isFaint": false,
+                        "isDodge": true,
+                        "stressInc": -5
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 46,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 11,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 0.5,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 10,
+                        "health": 29,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 40,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 46,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 46,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 1,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 1,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 20,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 26,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 26,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 86,
+                        "position": [
+                            0,
+                            1
+                        ],
+                        "stress": 12.5,
+                        "health": 1,
+                        "isFaint": true,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 25,
+                        "health": 29,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 40,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 26,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 26,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 11,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 25,
+                        "health": 18,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 284,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 10,
+                        "health": 110,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 25,
+                        "health": 1,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {},
+                            {
+                                "flee": {},
+                                "selfStress": {
+                                    "id": 0,
+                                    "state": {
+                                        "healt": 1,
+                                        "attack": 5.5,
+                                        "accuracy": 34.155,
+                                        "criticalHit": 8.425,
+                                        "speed": 3.89,
+                                        "luck": 2.53,
+                                        "persistance": 7.88
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 30,
+                        "health": 1,
+                        "isFaint": false,
+                        "hit": 2,
+                        "attack": 5.5,
+                        "stressInc": 5
+                    },
+                    "defender": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 25,
+                        "health": 18,
+                        "isFaint": false,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "attacker": {
+                        "cyborgID": 604,
+                        "position": [
+                            0,
+                            2
+                        ],
+                        "stress": 25,
+                        "health": 18,
+                        "isFaint": false,
+                        "hit": 0,
+                        "attack": 40,
+                        "stressInc": -1
+                    },
+                    "defender": {
+                        "cyborgID": 978,
+                        "position": [
+                            1,
+                            0
+                        ],
+                        "stress": 30,
+                        "health": 1,
+                        "isFaint": true,
+                        "isDodge": false,
+                        "stressInc": -1
+                    },
+                    "Postmartam": {
+                        "minePostmartam": [
+                            {}
+                        ],
+                        "lootPostmartam": [
+                            {}
+                        ]
+                    }
+                }
+            ]
+        },
+        "lootPosition": [
+            [
+                -1,
+                -1,
+                -1
+            ],
+            [
+                -1,
+                -1,
+                -1
+            ]
+        ]
+    }
+}

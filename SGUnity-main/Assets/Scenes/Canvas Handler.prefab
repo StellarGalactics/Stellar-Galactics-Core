@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1923723638929886059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9131087734294416032}
+  - component: {fileID: 2197528920039247088}
+  m_Layer: 0
+  m_Name: Canvas Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9131087734294416032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923723638929886059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.747051, y: 30.834404, z: -7.3022475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8997356380688013715}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2197528920039247088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923723638929886059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac9f3aa4be2acd408fa3cb719afaed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenu: {fileID: 0}
+  zion: {fileID: 0}
+  profile: {fileID: 0}
+  mineLoot: {fileID: 0}
+  mineResources: {fileID: 0}
+  lootOpenMines: {fileID: 0}
+  activeLoots: {fileID: 0}
+  history: {fileID: 0}
+  hamburgerPopup: {fileID: 0}
+  editEmailInputField: {fileID: 0}
+  editUsernameInputField: {fileID: 0}
+  mineToggle: {fileID: 0}
+  lootToggle: {fileID: 0}
+  activeLootsToggle: {fileID: 0}
+  historyToggle: {fileID: 0}
+  mineHistoryToggle: {fileID: 0}
+  lootHistoryToggle: {fileID: 0}
+  saveUsernameButton: {fileID: 0}
+  saveEmailButton: {fileID: 0}
+  loadingCanvas: {fileID: 0}
+  SuccessPopUpCyborgDrop: {fileID: 0}
+  PopUpCyborgDrop: {fileID: 0}
+  SuccessPopUpText: {fileID: 0}
+  WalletCreationPopUp: {fileID: 0}
+  walletID: {fileID: 0}
+  airdroppingSOL: {fileID: 0}
+  airDropSuccess: {fileID: 0}
+  claimPopup: {fileID: 0}
+  dailyRewardsPopup: {fileID: 0}
+  claimRewardPopUpText: {fileID: 0}
+  hamburgerUsernameText: {fileID: 0}
+  drd:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  inventoryCanvas: {fileID: 0}
+  inventoryPopUpCanvas: {fileID: 0}
+  RankUpPopUp: {fileID: 0}
+  NotEnoughtPointsPopUp: {fileID: 0}
+  succesfulPopUp: {fileID: 0}
+  rankUpSpeedUp: {fileID: 0}
+  inventoryCyborgCountText: {fileID: 0}
+  cemeteryCyborgCountText: {fileID: 0}
+  inventoryCyborgPrefab: {fileID: 1136444737524224542, guid: 627d5983c4f3985438819ae5ff9cc847,
+    type: 3}
+  cratePrefab: {fileID: 4105647442210111471, guid: 9b2e3cd3412875248a3e577c6c7f7890,
+    type: 3}
+  inventoryCyborgScrollViewContent: {fileID: 0}
+  cemeteryScrollViewContent: {fileID: 0}
+  cyborgFlow: {fileID: 0}
+  cemeteryFlow: {fileID: 0}
+  cyborgSelectedChild: {fileID: 0}
+  cyborgSelectedChildScrollView: {fileID: 0}
+  lootBoxScrollViewContent: {fileID: 0}
+  rank1Btn: {fileID: 0}
+  rank2Btn: {fileID: 0}
+  rank3Btn: {fileID: 0}
+  rank4Btn: {fileID: 0}
+  rank5Btn: {fileID: 0}
+  rank6Btn: {fileID: 0}
+  rankChosen: 1
+  mineCardRewardText: {fileID: 0}
+  mineCanvas: {fileID: 0}
+  mineActiveGroup: {fileID: 0}
+  minePopupCanvas: {fileID: 0}
+  mineTeamSelectionGroup: {fileID: 0}
+  mineCyborgPrefab: {fileID: 5255347732073511254, guid: f790f6262e544df4abd0230797a157ad,
+    type: 3}
+  mineCyborgScrollViewContent: {fileID: 0}
+  CyborgStats: {fileID: 0}
+  CyborgRightStats: {fileID: 0}
+  miningCardsScrollViewContent: {fileID: 0}
+  lootCardsScrollViewContent: {fileID: 0}
+  lootHistoryScrollViewContent: {fileID: 0}
+  mineHistoryScrollViewContent: {fileID: 0}
+  mineStartedCaardPrefab: {fileID: 6973895155756917606, guid: 68ccf27d9153c31499cea3b32a7ac90f,
+    type: 3}
+  quirkInfoPrefab: {fileID: 4496642991033079272, guid: 65465fc89fb78884d9e90d4fefbcc2c7,
+    type: 3}
+  mineHistoryGroup: {fileID: 0}
+  lootingCardsScrollViewContent: {fileID: 0}
+  lootStartedCaardPrefab: {fileID: 8408659841898738286, guid: ee663d8b133837a4ea2aae9c4e558b54,
+    type: 3}
+  lootTeamSelectionGroup: {fileID: 0}
+  CyborgStats2: {fileID: 0}
+  CyborgRightStats2: {fileID: 0}
+  lootCyborgScrollViewContent: {fileID: 0}
+  mineLootActiveHitsoryGroup: {fileID: 0}
+  lootHistoryGroup: {fileID: 0}
+  failPopUp: {fileID: 0}
+  zionCardsScrollViewContent: {fileID: 0}
+  zionObject: {fileID: 0}
+  tavernObject: {fileID: 0}
+  hospitalObject: {fileID: 0}
+  barSlot1: {fileID: 0}
+  barSlot2: {fileID: 0}
+  barSlot3: {fileID: 0}
+  brothelSlot1: {fileID: 0}
+  brothelSlot2: {fileID: 0}
+  brothelSlot3: {fileID: 0}
+  casinoSlot1: {fileID: 0}
+  casinoSlot2: {fileID: 0}
+  casinoSlot3: {fileID: 0}
+  churchSlot1: {fileID: 0}
+  churchSlot2: {fileID: 0}
+  churchSlot3: {fileID: 0}
+  hospitalSlot1: {fileID: 0}
+  hospitalSlot2: {fileID: 0}
+  hospitalSlot3: {fileID: 0}
+  stressRelievedPopUpBar: {fileID: 0}
+  zionPopUpCanvas: {fileID: 0}
+  stressRelievedPopUpBrothel: {fileID: 0}
+  stressRelievedPopUpCasino: {fileID: 0}
+  stressRelievedPopUpChurch: {fileID: 0}
+  quirkRemovedPopUpHospital: {fileID: 0}
+  noStressPopUp: {fileID: 0}
+  deadPopup: {fileID: 0}
+  zionSpeedUpPopup: {fileID: 0}
+  lootboxSpeedUpPopup: {fileID: 0}
+  failCasePopup: {fileID: 0}
+  demoCanvas: {fileID: 0}
+  cyborgOriginPlanetImage: {fileID: 0}
+  cyborgBodyImage: {fileID: 0}
+  cyborgJawImage: {fileID: 0}
+  cyborgEyeImage: {fileID: 0}
+  cyborgNeckImage: {fileID: 0}
+  cyborgHelmetImage: {fileID: 0}
+  cyborgVestImage: {fileID: 0}
+  signature:
+    name: 
+    symbol: 
+    description: 
+    seller_fee_basis_points: 0
+    image: 
+    external_url: 
+    attributes: []
+    collection:
+      name: 
+      family: 
+    properties:
+      files: []
+      category: 
+      creators: []
+--- !u!1 &2699253148579813085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8997356380688013715}
+  - component: {fileID: 3111747732206276854}
+  m_Layer: 0
+  m_Name: Hamburger Toggle Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8997356380688013715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2699253148579813085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9131087734294416032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3111747732206276854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2699253148579813085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0

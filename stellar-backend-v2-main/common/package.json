@@ -1,0 +1,24 @@
+{
+    "name": "common",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "wrangler dev --experimental-local --env development",
+        "deploy": "wrangler publish --minify"
+    },
+    "dependencies": {
+        "@prisma/client": "^4.13.0",
+        "@tsndr/cloudflare-worker-jwt": "^2.2.1",
+        "@types/bcryptjs": "^2.4.2",
+        "@upstash/redis": "^1.20.6",
+        "bcryptjs": "^2.4.3",
+        "hono": "^3.1.8",
+        "zod": "^3.21.4"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20230419.0",
+        "eslint-config-custom": "*",
+        "prisma": "^4.13.0",
+        "typescript": "~5.0.4"
+    }
+}

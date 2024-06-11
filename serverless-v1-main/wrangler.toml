@@ -1,0 +1,48 @@
+name = "cloudflare_worker"
+main = "src/index.ts"
+compatibility_date = "2023-03-14"
+send_metrics = false
+node_compat = true
+
+[env.production]
+name = "cloudflare_worker"
+routes = [
+	{ pattern = "api.stellargalactics.com", custom_domain=true }
+]
+vars = {UPSTASH_REDIS_REST_URL="https://destined-barnacle-30856.upstash.io"}
+r2_buckets = [
+	{binding = "CYBORG_METADATA", bucket_name = "jpeg", preview_bucket_name = "jpeg"}
+]
+kv_namespaces = [ 
+  {binding = "CYBORG_MINT", id = "fbbd08510282487088d6b4b56ffdb17a", preview_id = "fbbd08510282487088d6b4b56ffdb17a"},
+  {binding = "INVITE_CODE", id = "c7b3656bdaed49fd896bddddb4932898", preview_id = "c7b3656bdaed49fd896bddddb4932898"}
+]
+
+[env.staging]
+routes = [
+	{ pattern = "staging.api.stellargalactics.com", custom_domain=true }
+]
+workers_dev = true
+vars = {UPSTASH_REDIS_REST_URL="https://destined-barnacle-30856.upstash.io"}
+r2_buckets = [
+	{binding = "CYBORG_METADATA", bucket_name = "jpeg", preview_bucket_name = "jpeg"}
+]
+kv_namespaces = [ 
+  {binding = "CYBORG_MINT", id = "fbbd08510282487088d6b4b56ffdb17a", preview_id = "fbbd08510282487088d6b4b56ffdb17a"},
+  {binding = "INVITE_CODE", id = "c7b3656bdaed49fd896bddddb4932898", preview_id = "c7b3656bdaed49fd896bddddb4932898"}
+]
+
+# [[r2_buckets]]
+# binding = "CYBORG_METADATA"
+# bucket_name = "meta"
+# preview_bucket_name = "meta"
+
+# [[kv_namespaces]]
+# binding = "CYBORG_MINT"
+# id = "fbbd08510282487088d6b4b56ffdb17a"
+# preview_id = "fbbd08510282487088d6b4b56ffdb17a"
+
+# [[kv_namespaces]]
+# binding = "INVITE_CODE"
+# id = "c7b3656bdaed49fd896bddddb4932898"
+# preview_id = "c7b3656bdaed49fd896bddddb4932898"

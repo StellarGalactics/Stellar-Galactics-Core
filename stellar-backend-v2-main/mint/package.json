@@ -1,0 +1,30 @@
+{
+    "name": "mint-worker",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "wrangler dev --remote",
+        "dev": "wrangler dev --experimental-local --env development",
+        "deploy-prod": "wrangler publish --env production --minify",
+        "deploy-staging": "wrangler publish --env staging --minify",
+        "dry-run": "wrangler publish --minify --dry-run --outdir dist",
+        "tail-staging": "wrangler tail --env staging"
+      },
+    "dependencies": {
+        "@coral-xyz/anchor": "0.27.0",
+        "@solana/spl-token": "^0.3.7",
+        "@solana/web3.js": "^1.76.0",
+        "@tsndr/cloudflare-worker-jwt": "^2.2.1",
+        "@upstash/redis": "^1.20.6",
+        "crypto-aes-gcm": "^2.0.3",
+        "hono": "^3.1.8"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20230419.0",
+        "@miniflare/tre": "^3.0.0-next.13",
+        "@types/bn.js": "^5.1.1",
+        "eslint-config-custom": "*",
+        "typescript": "~5.0.4",
+        "wrangler": "^2.19.0"
+    }
+}

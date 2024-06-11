@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &599371534891689277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 599371534891689267}
+  - component: {fileID: 599371534891689266}
+  m_Layer: 0
+  m_Name: Battle Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &599371534891689267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599371534891689277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03999996, y: 0.27, z: 0.062000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &599371534891689266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599371534891689277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642dabea79c231f49b1c7eb8b8a62944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 6
+  jsonFile: {fileID: 4900000, guid: 874b47701c44a5546be8910356b192d7, type: 3}
+  mf1: {fileID: 0}
+  mf2: {fileID: 0}
+  mf3: {fileID: 0}
+  mb1: {fileID: 0}
+  mb2: {fileID: 0}
+  mb3: {fileID: 0}
+  lf1: {fileID: 0}
+  lf2: {fileID: 0}
+  lf3: {fileID: 0}
+  lb1: {fileID: 0}
+  lb2: {fileID: 0}
+  lb3: {fileID: 0}
+  mineBackRowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  mineFrontRowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lootBackRowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lootFrontRowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  placeHolderImage1: {fileID: 2800000, guid: 9f48fc09b554ac54695a7c13f0152eaf, type: 3}
+  placeHolderImage2: {fileID: 2800000, guid: dbd34d145f8524e439a8ea112225115b, type: 3}
+  placeHolderImage3: {fileID: 2800000, guid: b45a1d9dd77209a48a5811488d92cc97, type: 3}
+  popupPrefab: {fileID: 8573187133347170487, guid: 27f4dd6c06b5ee5418406bb3d634cb08,
+    type: 3}
+  battleSimulation:
+    result:
+      id: 
+      state: 
+      result: 
+      mineTimestamp: 0
+      mineCyborgs: []
+      minePlayerId: 
+      mineSimulation:
+        participant: 
+        mine_start_time: 0
+        mine_duration: 0
+        reward:
+          rewardToken:
+            SGF1: 0
+            SGF2: 0
+      lootCyborgs: []
+      lootTimestamp: 0
+      lootPlayerId: 
+      lootSimulation:
+        result:
+          id: 
+          state: 
+          result: 
+          mineTimestamp: 0
+          mineCyborgs: []
+          minePlayerId: 
+          mineSimulation:
+            participant: 
+            mine_start_time: 0
+            mine_duration: 0
+            reward:
+              rewardToken:
+                SGF1: 0
+                SGF2: 0
+          lootCyborgs: []
+          lootTimestamp: 0
+          lootPlayerId: 
+          lootSimulation:
+            result:
+              id: 
+              state: 
+              result: 
+              mineTimestamp: 0
+              mineCyborgs: []
+              minePlayerId: 
+              mineSimulation:
+                participant: 
+                mine_start_time: 0
+                mine_duration: 0
+                reward:
+                  rewardToken:
+                    SGF1: 0
+                    SGF2: 0
+              lootCyborgs: []
+              lootTimestamp: 0
+              lootPlayerId: 
+              lootSimulation:
+                result:
+                  id: 
+                  state: 
+                  result: 
+                  mineTimestamp: 0
+                  mineCyborgs: []
+                  minePlayerId: 
+                  mineSimulation:
+                    participant: 
+                    mine_start_time: 0
+                    mine_duration: 0
+                    reward:
+                      rewardToken:
+                        SGF1: 0
+                        SGF2: 0
+                  lootCyborgs: []
+                  lootTimestamp: 0
+                  lootPlayerId: 
+                  lootSimulation:
+                    result:
+                      id: 
+                      state: 
+                      result: 
+                      mineTimestamp: 0
+                      mineCyborgs: []
+                      minePlayerId: 
+                      mineSimulation:
+                        mine_start_time: 0
+                        mine_duration: 0
+                      lootCyborgs: []
+                      lootTimestamp: 0
+                      lootPlayerId: 
+                      win:
+                        team: 
+                      loss:
+                        team: 
+                    gamePosition: {}
+                    corePlay: []
+                  win:
+                    team: 
+                    reward:
+                      rewardToken:
+                        SGF1: 0
+                        SGF2: 0
+                  loss:
+                    team: 
+                    reward:
+                      rewardToken:
+                        SGF1: 0
+                        SGF2: 0
+                gamePosition:
+                  loot:
+                    frontRow: 
+                    backRow: 
+                  mine:
+                    frontRow: 
+                    backRow: 
+                corePlay: []
+              win:
+                team: 
+                reward:
+                  rewardToken:
+                    SGF1: 0
+                    SGF2: 0
+              loss:
+                team: 
+                reward:
+                  rewardToken:
+                    SGF1: 0
+                    SGF2: 0
+            gamePosition:
+              loot:
+                frontRow: 
+                backRow: 
+              mine:
+                frontRow: 
+                backRow: 
+            corePlay: []
+          win:
+            team: 
+            reward:
+              rewardToken:
+                SGF1: 0
+                SGF2: 0
+          loss:
+            team: 
+            reward:
+              rewardToken:
+                SGF1: 0
+                SGF2: 0
+        gamePosition:
+          loot:
+            frontRow: 
+            backRow: 
+          mine:
+            frontRow: 
+            backRow: 
+        corePlay: []
+      win:
+        team: 
+        reward:
+          rewardToken:
+            SGF1: 0
+            SGF2: 0
+      loss:
+        team: 
+        reward:
+          rewardToken:
+            SGF1: 0
+            SGF2: 0
+  lootBackRow: 
+  lootFrontRow: 
+  mineBackRow: 
+  mineFrontRow: 

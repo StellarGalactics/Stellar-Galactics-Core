@@ -1,0 +1,23 @@
+{
+    "name": "user-worker",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "wrangler dev --remote",
+        "dev": "wrangler dev --experimental-local --env development",
+        "deploy": "wrangler deploy --minify",
+        "dry-run": "wrangler deploy --minify --dry-run --outdir dist"
+    },
+    "dependencies": {
+        "@tsndr/cloudflare-worker-jwt": "^2.2.1",
+        "hono": "^3.1.8",
+        "zod": "^3.21.4"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20230419.0",
+        "@miniflare/tre": "^3.0.0-next.13",
+        "eslint-config-custom": "*",
+        "typescript": "~5.0.4",
+        "wrangler": "^3.1.0"
+    }
+}

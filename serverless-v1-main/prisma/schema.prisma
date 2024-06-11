@@ -1,0 +1,344 @@
+generator client {
+  provider = "prisma-client-js"
+  // previewFeatures = ["jsonProtocol"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+/// Represents a player in the game.
+model Player {
+  /// Unique identifier for the player.
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  
+  /// Unique username for the player.
+  username       String   @unique
+  
+  /// Unique email for the player.
+  email          String   @unique
+  
+  /// Password for the player's account.
+  password       String
+  
+  /// Timestamp of when the player's account was created.
+  createdAt      DateTime @default(now())
+  
+  /// Code used to activate the player's account.
+  activationCode String  @default("")
+  
+  /// Path or URL to the player's avatar image.
+  avatar         String   @default("")
+  
+  /// Information about the player's wallet.
+  wallet         String   @default("")
+  
+  /// Information about the player's wallet node.
+  walletNode     String   @default("")
+  
+  /// Number of $SGF1 tokens the player has. base of 1 SGF = 1000000000 1 uSGF for ease of calculations
+  SGF1           Int @default(1000000000000)
+  
+  /// Number of $SGF2 tokens the player has.
+  SGF2           Int @default(0)
+  
+  /// Rank-up points for the player.
+  rankupPoint    Int @default(0)
+  
+  /// Indicates whether the player has completed the demo.
+  demo           Boolean @default(false)
+
+  /// Indicates whether user has completed the feedback.
+  feedback       Int @default(0)
+  
+  /// Games that the player has played where they were the miner.
+  mineGame       Game[] @relation("mine")
+  
+  /// Games that the player has played where they looted resources.
+  LootGame       Game[] @relation("loot")
+  
+  /// Cyborgs that the player owns.
+  cyborgs        Cyborg[]
+  
+  /// Weapons that the player owns.
+  weapons        Weapon[]
+  
+  /// Armour that the player owns.
+  armours        Armour[]
+  
+  /// Loot boxes that the player owns.
+  lootBoxes      LootBox[]
+  
+  /// The current cyborgs that the player has in Zion.
+  currentZion    CyborgInZion[]
+
+  /// last reward claim in streak
+  rewardClaimTime Int?
+
+  /// current day of the streak
+  streakDay      Int?
+}
+
+model Game{
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+
+  /// Human-readable game id.
+  gameID Int
+
+  mode  gameMode? // game mode
+
+  state gameState // current state of game
+  result gameResult
+
+  mineTimestamp Int
+  mineCyborgs CyborgT[]
+  minePlayer  Player @relation("mine", fields: [minePlayerId], references: [id])
+  minePlayerId String  @db.ObjectId
+  mineSimulation Json
+  minePosition Json
+  mineClaimed Boolean? @default(false)
+
+  lootCyborgs CyborgT[]
+  lootTimestamp Int?
+  lootPlayer  Player? @relation("loot", fields: [lootPlayerId], references: [id])
+  lootPlayerId String?  @db.ObjectId //NOTE: Optional
+  lootSimulation Json
+  lootPosition Json
+  lootClaimed Boolean? @default(false)
+}
+
+model Cyborg {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  cyborg CyborgT
+  zion Zion?
+  mode gameMode? // mode of cyborg minted with
+  player   Player @relation(fields: [playerId], references: [id])
+  playerId String  @db.ObjectId
+  prevRankupTimeStamp Int? // Prev RankupTimeStamp
+}
+
+model Weapon {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  weapons WeaponT
+  player  Player @relation(fields: [playerId], references: [id])
+  playerId String  @db.ObjectId
+}
+
+model Armour {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  armour  ArmourT
+  player  Player @relation(fields: [playerId], references: [id])
+  playerId String  @db.ObjectId
+}
+
+model LootBox {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  state lootboxState
+  lootbox  LootBoxT
+  mode gameMode?
+  openTimeStamp Int?
+  player  Player @relation(fields: [playerId], references: [id])
+  playerId String  @db.ObjectId
+}
+
+model wagerGame {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  gameID Int
+
+  state wagerState @default(started)
+
+  mode gameMode
+
+  startTimestamp Int
+  betAmount Int
+  won Boolean?
+
+  userId  String @db.ObjectId
+  userCyborgSeq String[]
+  userCyborgs CyborgT[]
+  userPosition Json
+  
+  wagerCyborgs CyborgT[]
+  wagerPosition Json
+  wagerSimulation Json
+}
+
+enum wagerState {
+  started
+  claimed
+}
+
+enum lootboxState {
+  open
+  close
+}
+
+enum gameState {
+  Mine
+  Loot
+  Complete
+}
+
+enum gameResult {
+  pureWin // Mine without getting attacked
+  // battleWin // Mine win with getting attacked 
+  // battleLoss // Mine loss with getting attacked
+  mineWon
+  lootWon
+  InProgrss
+}
+
+enum gameMode {
+  normal
+  tournament
+}
+
+type CyborgInZion {
+  zionType ZionType
+  cyborgId String[]  @db.ObjectId
+  current Int
+}
+type Zion {
+  activeness Boolean
+  zionType ZionType
+  createdAt Int @default(0)
+  quirks Int[] // if zionType === Hospital
+}
+
+enum ZionType {
+  Bar
+  Brothel
+  Casino
+  Church
+  Hospital
+}
+type CyborgT {
+  id             Int
+  name           String
+  status         CyboargStatus
+  quirks         Quirk[] // A cyborg can have multiple quirks based on type
+  medal          Medal[]
+  cooldownPeriod Int //cooldown period; default 0. (UNIXTIMESTAMP)
+  trait          Traits // Metadata of NFT
+  rank           Rank
+  level          Int
+  health         Float
+  attack         Float
+  speed          Float
+  criticalHit    Float
+  accuracy       Float
+  luck           Float
+  persistence    Float
+  lifePoint      Float
+  stressPoint    Float
+  energy         Int // Mine: 4; Loot: 1
+  xp             Float // experince point; used in level up and rank up
+}
+type Quirk {
+  type       Int // 1-State Based 2-Crit Based 3-Meta Based 4-Opponent Based
+  attributes Attribute[] //affected attributes
+}
+
+type Attribute {
+  attribute   Int // attribute sequence
+  effect     Int //affect of the attribute
+}
+
+enum Medal {
+  Genesis
+  Null
+}
+
+type Traits {
+  class     CyborgClass
+  bodyParts BodyPart
+}
+
+type BodyPart {
+  gender       Gender
+  helmet       String
+  vest         String
+  skin         String
+  eye          Eye
+  neck         Neck
+  originPlanet OriginPlanet
+}
+
+type OriginPlanet {
+  name  String
+}
+
+type Neck {
+  name  String
+  class CyborgClass
+}
+
+type Eye {
+  name  String
+  class CyborgClass
+}
+
+enum Rank {
+  Corporal
+  Sergeant
+  Major
+  Lieutenant
+  Brigadier
+  General
+}
+
+enum Gender {
+  Male
+  Female
+}
+
+enum CyborgClass {
+  Aviator
+  Brawler
+  Marine
+  Tactician
+  Warrior
+}
+
+enum CyboargStatus {
+  Idle
+  Dead
+  Cooldown 
+  Mine
+  Loot
+  Rankup
+}
+
+enum CyborgQuirk {
+  HealthIncBy10
+  WeakAgainstBrawler
+  Null
+}
+
+type ArmourT {
+  name   String
+  class  CyborgClass
+  rank   Rank
+  season Int
+}
+
+type WeaponT {
+  name   String
+  class  CyborgClass
+  rank   Rank
+  season Int
+}
+
+type LootBoxT {
+  // name String
+  xp     xpAllocation[]
+  rankupPoint Int
+  SGF1   Int
+  SGF2   Int
+}
+
+type xpAllocation {
+  cyborgID   Int
+  xp         Float
+}

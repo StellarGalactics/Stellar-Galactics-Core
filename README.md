@@ -4,7 +4,7 @@ Stellar Galactics Game is an idle auto-battler with the psychological stress of 
 
 It was started as the flagship game of Stellar Galactics, a Solana NFT collection. Sadly, amidst co-founder conflicts, we'll be ceasing operations. While it aches our hearts to shout-down operations, we’ve always been community first, and to honor our commitment to the community, we have decided to open-source our game code and blender files. By doing so, we hope to empower others to build upon our work and further advance the web3 gaming ecosystem.
 
-You can access all of the Blender files used for asset creation [here](https://drive.google.com/drive/folders/1QFpQHApEZSufYxGNhFtJ8M9XsO4lcPL0?usp=sharing).
+You can access all of the Blender files used for 3D asset creation [here](https://drive.google.com/drive/folders/1QFpQHApEZSufYxGNhFtJ8M9XsO4lcPL0?usp=sharing).
 
 ## Getting Started
 
